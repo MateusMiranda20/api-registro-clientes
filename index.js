@@ -3,7 +3,7 @@ const uuid = require('uuid');
 const cors = require('cors')
 
 const app = express()
-const porta = 3005
+const porta = 3001
 app.use(express.json())
 app.use(cors())
 
